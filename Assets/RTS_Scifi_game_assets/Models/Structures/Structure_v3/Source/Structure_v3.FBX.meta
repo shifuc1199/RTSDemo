@@ -1,0 +1,316 @@
+fileFormatVersion: 2
+guid: 07debbea7f9a6e94ab9f44a87cf54414
+timeCreated: 1518285279
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Box002_LP
+    100002: Dummy002
+    100004: Object001
+    100006: Object002
+    100008: Object003
+    100010: Object004
+    100012: Object005
+    100014: Object006
+    100016: Object009
+    100018: Object010
+    100020: //RootNode
+    100022: Structure_v3_body
+    100024: Structure_v3_door_D
+    100026: Structure_v3_door_stand
+    100028: Structure_v3_door_T
+    100030: Structure_v3_vent_b1
+    100032: Structure_v3_vent_b2
+    100034: Structure_v3_vent_s1
+    100036: Structure_v3_vent_s2
+    100038: Structure_v3_sec_door
+    400000: Box002_LP
+    400002: Dummy002
+    400004: Object001
+    400006: Object002
+    400008: Object003
+    400010: Object004
+    400012: Object005
+    400014: Object006
+    400016: Object009
+    400018: Object010
+    400020: //RootNode
+    400022: Structure_v3_body
+    400024: Structure_v3_door_D
+    400026: Structure_v3_door_stand
+    400028: Structure_v3_door_T
+    400030: Structure_v3_vent_b1
+    400032: Structure_v3_vent_b2
+    400034: Structure_v3_vent_s1
+    400036: Structure_v3_vent_s2
+    400038: Structure_v3_sec_door
+    2300000: Box002_LP
+    2300002: Object001
+    2300004: Object002
+    2300006: Object003
+    2300008: Object004
+    2300010: Object005
+    2300012: Object006
+    2300014: Object009
+    2300016: Object010
+    2300018: Structure_v3_body
+    2300020: Structure_v3_door_D
+    2300022: Structure_v3_door_stand
+    2300024: Structure_v3_door_T
+    2300026: Structure_v3_vent_b1
+    2300028: Structure_v3_vent_b2
+    2300030: Structure_v3_vent_s1
+    2300032: Structure_v3_vent_s2
+    2300034: Structure_v3_sec_door
+    3300000: Box002_LP
+    3300002: Object001
+    3300004: Object002
+    3300006: Object003
+    3300008: Object004
+    3300010: Object005
+    3300012: Object006
+    3300014: Object009
+    3300016: Object010
+    3300018: Structure_v3_body
+    3300020: Structure_v3_door_D
+    3300022: Structure_v3_door_stand
+    3300024: Structure_v3_door_T
+    3300026: Structure_v3_vent_b1
+    3300028: Structure_v3_vent_b2
+    3300030: Structure_v3_vent_s1
+    3300032: Structure_v3_vent_s2
+    3300034: Structure_v3_sec_door
+    4300000: Box002_LP
+    4300002: Object001
+    4300004: Object002
+    4300006: Object003
+    4300008: Object004
+    4300010: Object005
+    4300012: Object006
+    4300014: Object009
+    4300016: Object010
+    4300018: Structure_v3_body
+    4300020: Structure_v3_door_T
+    4300022: Structure_v3_door_D
+    4300024: Structure_v3_door_stand
+    4300026: Structure_v3_vent_b1
+    4300028: Structure_v3_vent_b2
+    4300030: Structure_v3_vent_s1
+    4300032: Structure_v3_vent_s2
+    4300034: Structure_v3_sec_door
+    7400000: Structure_v3_ventilation
+    7400002: Structure_v3_doors_open
+    7400004: Structure_v3_doors_close
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Structure_v3_ventilation
+      takeName: Structure_v3
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box002_LP
+        weight: 1
+      - path: Dummy002
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: Object005
+        weight: 1
+      - path: Object006
+        weight: 1
+      - path: Object009
+        weight: 1
+      - path: Object010
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Structure_v3_doors_open
+      takeName: Structure_v3
+      firstFrame: 100
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Structure_v3_body
+        weight: 1
+      - path: Structure_v3_door_D
+        weight: 1
+      - path: Structure_v3_door_stand
+        weight: 1
+      - path: Structure_v3_door_T
+        weight: 1
+      - path: Structure_v3_vent_b1
+        weight: 1
+      - path: Structure_v3_vent_b2
+        weight: 1
+      - path: Structure_v3_vent_s1
+        weight: 1
+      - path: Structure_v3_vent_s2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Structure_v3_doors_close
+      takeName: Structure_v3
+      firstFrame: 120
+      lastFrame: 140
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Structure_v3_body
+        weight: 1
+      - path: Structure_v3_door_D
+        weight: 1
+      - path: Structure_v3_door_stand
+        weight: 1
+      - path: Structure_v3_door_T
+        weight: 1
+      - path: Structure_v3_vent_b1
+        weight: 1
+      - path: Structure_v3_vent_b2
+        weight: 1
+      - path: Structure_v3_vent_s1
+        weight: 1
+      - path: Structure_v3_vent_s2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
