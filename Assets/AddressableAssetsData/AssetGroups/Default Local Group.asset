@@ -17,14 +17,31 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 65077e7bb908fb0488e68f6fcd4531a4
   m_SerializeEntries:
-  - m_GUID: 2e0f595bdb2d2cd4784d34b557b1d924
-    m_Address: Building
+  - m_GUID: 2b4131ca5c4ae114c8feeedc2893680c
+    m_Address: PowerBuilding
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Building
+  - m_GUID: 2e0f595bdb2d2cd4784d34b557b1d924
+    m_Address: MainBuilding
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Building
+  - m_GUID: ad88848010212ce459517428286721f6
+    m_Address: SoliderBuilding
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Building
+  - m_GUID: e32a1c7b776560f4381f2c16e03a8e33
+    m_Address: TurretBuilding
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Building
   - m_GUID: fdffe21397b161f4cbd7280f4a943778
     m_Address: BuildCheckCube
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Building
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 7cf691406c1ad744f87484c0df2d2fc7, type: 2}
   m_SchemaSet:

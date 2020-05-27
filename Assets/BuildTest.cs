@@ -4,19 +4,29 @@ using UnityEngine;
 using UnityEngine.AddressableAssets;
 using DreamerTool.Util;
 using UnityEngine.ResourceManagement.AsyncOperations;
+using UnityEngine.InputSystem;
 
 public class BuildTest : MonoBehaviour
 {
-    
+   
     private BoxCollider selectBuilding;
     List<BuildCheckCube> checkCubeList = new List<BuildCheckCube>();
+     
     private void Awake()
     {
-         
+       Addressables.LoadAssetsAsync<GameObject>("Building",null);
     }
-    public void SetSelectBuilding()
+
+    public void SetSelectBuilding(int buildType)
     {
-        Addressables.InstantiateAsync("Building").Completed += InitSelectBuilding;
+       if(selectBuilding!=null)
+        {
+            Destroy(selectBuilding.gameObject);
+            selectBuilding = null;
+            checkCubeList.Clear();
+        }
+        var hit = DreamerUtil.GetMouseHit();
+        Addressables.InstantiateAsync(((BuildingType)buildType).ToString(), hit.point, Quaternion.identity).Completed += InitSelectBuilding;
     }
     public void InitSelectBuilding(AsyncOperationHandle<GameObject> handle)
     {
@@ -30,12 +40,28 @@ public class BuildTest : MonoBehaviour
                 int tempi = i;
                 int tempj = j;
                 Addressables.InstantiateAsync("BuildCheckCube", selectBuilding.transform).Completed += (a) => {
-                    a.Result.transform.localPosition = new Vector3(tempi, selectBuilding.bounds.center.y + point.y + 0.25f, tempj);
+                    a.Result.transform.localPosition = new Vector3(tempi,  0.1f   , tempj);
                     a.Result.transform.rotation = Quaternion.Euler(90, 0, 0);
                     checkCubeList.Add(a.Result.GetComponent<BuildCheckCube>());
                 };
             }
         }
+    }
+    public void Build()
+    {
+        foreach (var checkCube in checkCubeList)
+        {
+            if (!checkCube.isBuildable)
+                return;
+        }
+
+        selectBuilding.gameObject.layer = LayerMask.NameToLayer("Building");
+        selectBuilding = null;
+        foreach (var checkCube in checkCubeList)
+        {
+            Destroy(checkCube.gameObject);
+        }
+        checkCubeList.Clear();
     }
     void HandleSelectBuildingCursor()
     {
@@ -50,9 +76,19 @@ public class BuildTest : MonoBehaviour
         {
             checkCube.Check();
         }
+
+        if(Mouse.current.leftButton.wasPressedThisFrame)
+        {
+            Build();
+        }
+       
     }
+    
     void Update()
     {
         HandleSelectBuildingCursor();
+      
+
+
     }
 }

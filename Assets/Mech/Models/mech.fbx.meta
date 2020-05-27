@@ -1,138 +1,386 @@
 fileFormatVersion: 2
 guid: fec746e46c2fd354fa0bc92720075dbd
-timeCreated: 1496110899
-licenseType: Store
 ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName:
-    100000: BigCanon01_L
-    100002: BigCanon01_R
-    100004: BigCanon01Stretcher_L
-    100006: BigCanon01Stretcher_R
-    100008: BigCanon02_L
-    100010: BigCanon02_R
-    100012: BigCanon02Stretcher_L
-    100014: BigCanon02Stretcher_R
-    100016: Body
-    100018: Foot01_L
-    100020: Foot01_R
-    100022: Foot02_L
-    100024: Foot02_R
-    100026: Heel_L
-    100028: Heel_R
-    100030: Hip01_L
-    100032: Hip01_R
-    100034: Hip02_L
-    100036: Hip02_R
-    100038: LowerLeg_L
-    100040: LowerLeg_R
-    100042: Mech
-    100044: mech
-    100046: //RootNode
-    100048: Mortar
-    100050: Pelvis
-    100052: PistonBaseLower_L
-    100054: PistonBaseLower_R
-    100056: PistonBaseUpper_L
-    100058: PistonBaseUpper_R
-    100060: PistonLower_L
-    100062: PistonLower_R
-    100064: PistonLower_R_001
-    100066: PistonMedian_L
-    100068: PistonMedian_R
-    100070: PistonUpper_L
-    100072: PistonUpper_R
-    100074: Root
-    100076: ShinShield_L
-    100078: ShinShield_R
-    100080: SmallCanon01_L
-    100082: SmallCanon01_R
-    100084: SmallCanon02_L
-    100086: SmallCanon02_R
-    100088: Toe1_L
-    100090: Toe1_R
-    100092: Toe2_L
-    100094: Toe2_R
-    100096: Toe3_L
-    100098: Toe3_R
-    100100: Toe4_L
-    100102: Toe4_R
-    100104: UpperLeg_L
-    100106: UpperLeg_R
-    400000: BigCanon01_L
-    400002: BigCanon01_R
-    400004: BigCanon01Stretcher_L
-    400006: BigCanon01Stretcher_R
-    400008: BigCanon02_L
-    400010: BigCanon02_R
-    400012: BigCanon02Stretcher_L
-    400014: BigCanon02Stretcher_R
-    400016: Body
-    400018: Foot01_L
-    400020: Foot01_R
-    400022: Foot02_L
-    400024: Foot02_R
-    400026: Heel_L
-    400028: Heel_R
-    400030: Hip01_L
-    400032: Hip01_R
-    400034: Hip02_L
-    400036: Hip02_R
-    400038: LowerLeg_L
-    400040: LowerLeg_R
-    400042: Mech
-    400044: //RootNode
-    400046: mech
-    400048: Mortar
-    400050: Pelvis
-    400052: PistonBaseLower_L
-    400054: PistonBaseLower_R
-    400056: PistonBaseUpper_L
-    400058: PistonBaseUpper_R
-    400060: PistonLower_L
-    400062: PistonLower_R
-    400064: PistonLower_R_001
-    400066: PistonMedian_L
-    400068: PistonMedian_R
-    400070: PistonUpper_L
-    400072: PistonUpper_R
-    400074: Root
-    400076: ShinShield_L
-    400078: ShinShield_R
-    400080: SmallCanon01_L
-    400082: SmallCanon01_R
-    400084: SmallCanon02_L
-    400086: SmallCanon02_R
-    400088: Toe1_L
-    400090: Toe1_R
-    400092: Toe2_L
-    400094: Toe2_R
-    400096: Toe3_L
-    400098: Toe3_R
-    400100: Toe4_L
-    400102: Toe4_R
-    400104: UpperLeg_L
-    400106: UpperLeg_R
-    4300000: mech
-    7400000: DefaultToWalk
-    7400002: Hit
-    7400004: Run
-    7400006: Run_InPlace
-    7400008: RunJump
-    7400010: RunJump_InPlace
-    7400012: ShootBigCanon_A
-    7400014: ShootBigCanon_B
-    7400016: ShootSmallCanon_A
-    7400018: ShootSmallCanon_B
-    7400020: SleepToDefault
-    7400022: Walk
-    7400024: WalkInPlace
-    9500000: //RootNode
-    13700000: mech
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: BigCanon01_L
+  - first:
+      1: 100002
+    second: BigCanon01_R
+  - first:
+      1: 100004
+    second: BigCanon01Stretcher_L
+  - first:
+      1: 100006
+    second: BigCanon01Stretcher_R
+  - first:
+      1: 100008
+    second: BigCanon02_L
+  - first:
+      1: 100010
+    second: BigCanon02_R
+  - first:
+      1: 100012
+    second: BigCanon02Stretcher_L
+  - first:
+      1: 100014
+    second: BigCanon02Stretcher_R
+  - first:
+      1: 100016
+    second: Body
+  - first:
+      1: 100018
+    second: Foot01_L
+  - first:
+      1: 100020
+    second: Foot01_R
+  - first:
+      1: 100022
+    second: Foot02_L
+  - first:
+      1: 100024
+    second: Foot02_R
+  - first:
+      1: 100026
+    second: Heel_L
+  - first:
+      1: 100028
+    second: Heel_R
+  - first:
+      1: 100030
+    second: Hip01_L
+  - first:
+      1: 100032
+    second: Hip01_R
+  - first:
+      1: 100034
+    second: Hip02_L
+  - first:
+      1: 100036
+    second: Hip02_R
+  - first:
+      1: 100038
+    second: LowerLeg_L
+  - first:
+      1: 100040
+    second: LowerLeg_R
+  - first:
+      1: 100042
+    second: Mech
+  - first:
+      1: 100044
+    second: mech
+  - first:
+      1: 100046
+    second: //RootNode
+  - first:
+      1: 100048
+    second: Mortar
+  - first:
+      1: 100050
+    second: Pelvis
+  - first:
+      1: 100052
+    second: PistonBaseLower_L
+  - first:
+      1: 100054
+    second: PistonBaseLower_R
+  - first:
+      1: 100056
+    second: PistonBaseUpper_L
+  - first:
+      1: 100058
+    second: PistonBaseUpper_R
+  - first:
+      1: 100060
+    second: PistonLower_L
+  - first:
+      1: 100062
+    second: PistonLower_R
+  - first:
+      1: 100064
+    second: PistonLower_R_001
+  - first:
+      1: 100066
+    second: PistonMedian_L
+  - first:
+      1: 100068
+    second: PistonMedian_R
+  - first:
+      1: 100070
+    second: PistonUpper_L
+  - first:
+      1: 100072
+    second: PistonUpper_R
+  - first:
+      1: 100074
+    second: Root
+  - first:
+      1: 100076
+    second: ShinShield_L
+  - first:
+      1: 100078
+    second: ShinShield_R
+  - first:
+      1: 100080
+    second: SmallCanon01_L
+  - first:
+      1: 100082
+    second: SmallCanon01_R
+  - first:
+      1: 100084
+    second: SmallCanon02_L
+  - first:
+      1: 100086
+    second: SmallCanon02_R
+  - first:
+      1: 100088
+    second: Toe1_L
+  - first:
+      1: 100090
+    second: Toe1_R
+  - first:
+      1: 100092
+    second: Toe2_L
+  - first:
+      1: 100094
+    second: Toe2_R
+  - first:
+      1: 100096
+    second: Toe3_L
+  - first:
+      1: 100098
+    second: Toe3_R
+  - first:
+      1: 100100
+    second: Toe4_L
+  - first:
+      1: 100102
+    second: Toe4_R
+  - first:
+      1: 100104
+    second: UpperLeg_L
+  - first:
+      1: 100106
+    second: UpperLeg_R
+  - first:
+      4: 400000
+    second: BigCanon01_L
+  - first:
+      4: 400002
+    second: BigCanon01_R
+  - first:
+      4: 400004
+    second: BigCanon01Stretcher_L
+  - first:
+      4: 400006
+    second: BigCanon01Stretcher_R
+  - first:
+      4: 400008
+    second: BigCanon02_L
+  - first:
+      4: 400010
+    second: BigCanon02_R
+  - first:
+      4: 400012
+    second: BigCanon02Stretcher_L
+  - first:
+      4: 400014
+    second: BigCanon02Stretcher_R
+  - first:
+      4: 400016
+    second: Body
+  - first:
+      4: 400018
+    second: Foot01_L
+  - first:
+      4: 400020
+    second: Foot01_R
+  - first:
+      4: 400022
+    second: Foot02_L
+  - first:
+      4: 400024
+    second: Foot02_R
+  - first:
+      4: 400026
+    second: Heel_L
+  - first:
+      4: 400028
+    second: Heel_R
+  - first:
+      4: 400030
+    second: Hip01_L
+  - first:
+      4: 400032
+    second: Hip01_R
+  - first:
+      4: 400034
+    second: Hip02_L
+  - first:
+      4: 400036
+    second: Hip02_R
+  - first:
+      4: 400038
+    second: LowerLeg_L
+  - first:
+      4: 400040
+    second: LowerLeg_R
+  - first:
+      4: 400042
+    second: Mech
+  - first:
+      4: 400044
+    second: //RootNode
+  - first:
+      4: 400046
+    second: mech
+  - first:
+      4: 400048
+    second: Mortar
+  - first:
+      4: 400050
+    second: Pelvis
+  - first:
+      4: 400052
+    second: PistonBaseLower_L
+  - first:
+      4: 400054
+    second: PistonBaseLower_R
+  - first:
+      4: 400056
+    second: PistonBaseUpper_L
+  - first:
+      4: 400058
+    second: PistonBaseUpper_R
+  - first:
+      4: 400060
+    second: PistonLower_L
+  - first:
+      4: 400062
+    second: PistonLower_R
+  - first:
+      4: 400064
+    second: PistonLower_R_001
+  - first:
+      4: 400066
+    second: PistonMedian_L
+  - first:
+      4: 400068
+    second: PistonMedian_R
+  - first:
+      4: 400070
+    second: PistonUpper_L
+  - first:
+      4: 400072
+    second: PistonUpper_R
+  - first:
+      4: 400074
+    second: Root
+  - first:
+      4: 400076
+    second: ShinShield_L
+  - first:
+      4: 400078
+    second: ShinShield_R
+  - first:
+      4: 400080
+    second: SmallCanon01_L
+  - first:
+      4: 400082
+    second: SmallCanon01_R
+  - first:
+      4: 400084
+    second: SmallCanon02_L
+  - first:
+      4: 400086
+    second: SmallCanon02_R
+  - first:
+      4: 400088
+    second: Toe1_L
+  - first:
+      4: 400090
+    second: Toe1_R
+  - first:
+      4: 400092
+    second: Toe2_L
+  - first:
+      4: 400094
+    second: Toe2_R
+  - first:
+      4: 400096
+    second: Toe3_L
+  - first:
+      4: 400098
+    second: Toe3_R
+  - first:
+      4: 400100
+    second: Toe4_L
+  - first:
+      4: 400102
+    second: Toe4_R
+  - first:
+      4: 400104
+    second: UpperLeg_L
+  - first:
+      4: 400106
+    second: UpperLeg_R
+  - first:
+      43: 4300000
+    second: mech
+  - first:
+      74: 7400000
+    second: DefaultToWalk
+  - first:
+      74: 7400002
+    second: Hit
+  - first:
+      74: 7400004
+    second: Run
+  - first:
+      74: 7400006
+    second: Run_InPlace
+  - first:
+      74: 7400008
+    second: RunJump
+  - first:
+      74: 7400010
+    second: RunJump_InPlace
+  - first:
+      74: 7400012
+    second: ShootBigCanon_A
+  - first:
+      74: 7400014
+    second: ShootBigCanon_B
+  - first:
+      74: 7400016
+    second: ShootSmallCanon_A
+  - first:
+      74: 7400018
+    second: ShootSmallCanon_B
+  - first:
+      74: 7400020
+    second: SleepToDefault
+  - first:
+      74: 7400022
+    second: Walk
+  - first:
+      74: 7400024
+    second: WalkInPlace
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: mech
+  externalObjects: {}
   materials:
-    importMaterials: 0
+    materialImportMode: 0
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -143,21 +391,25 @@ ModelImporter:
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: Event EndOfRun has a time (0.800000) outside the clip's
-      valid range (0.000000..0.766667). It will never be firedEvent EndOfRunJump has
-      a time (0.800000) outside the clip's valid range (0.000000..0.766667). It will
-      never be fired
+      valid range (0.000000..0.766667). It will never be firedEvent EndOfRunJump
+      has a time (0.800000) outside the clip's valid range (0.000000..0.766667).
+      It will never be fired
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
       name: DefaultToWalk
       takeName: DefaultToWalk
+      internalID: 0
       firstFrame: 0
       lastFrame: 25
       wrapMode: 0
@@ -166,7 +418,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -294,6 +546,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Hit
       takeName: Hit
+      internalID: 0
       firstFrame: -1
       lastFrame: 49
       wrapMode: 0
@@ -430,6 +683,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Run
       takeName: Run
+      internalID: 0
       firstFrame: 0
       lastFrame: 24
       wrapMode: 0
@@ -587,6 +841,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Run_InPlace
       takeName: Run_InPlace
+      internalID: 0
       firstFrame: 0
       lastFrame: 24
       wrapMode: 0
@@ -595,7 +850,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -723,6 +978,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RunJump
       takeName: RunJump
+      internalID: 0
       firstFrame: 0
       lastFrame: 24
       wrapMode: 0
@@ -880,6 +1136,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RunJump_InPlace
       takeName: RunJump_InPlace
+      internalID: 0
       firstFrame: 0
       lastFrame: 24
       wrapMode: 0
@@ -1016,6 +1273,7 @@ ModelImporter:
     - serializedVersion: 16
       name: ShootBigCanon_A
       takeName: ShootBigCanon_A
+      internalID: 0
       firstFrame: 0
       lastFrame: 15
       wrapMode: 0
@@ -1159,6 +1417,7 @@ ModelImporter:
     - serializedVersion: 16
       name: ShootBigCanon_B
       takeName: ShootBigCanon_B
+      internalID: 0
       firstFrame: 0
       lastFrame: 15
       wrapMode: 0
@@ -1302,6 +1561,7 @@ ModelImporter:
     - serializedVersion: 16
       name: ShootSmallCanon_A
       takeName: ShootSmallCanon_A
+      internalID: 0
       firstFrame: 0
       lastFrame: 7
       wrapMode: 0
@@ -1445,6 +1705,7 @@ ModelImporter:
     - serializedVersion: 16
       name: ShootSmallCanon_B
       takeName: ShootSmallCanon_B
+      internalID: 0
       firstFrame: 0
       lastFrame: 7
       wrapMode: 0
@@ -1588,6 +1849,7 @@ ModelImporter:
     - serializedVersion: 16
       name: SleepToDefault
       takeName: SleepToDefault
+      internalID: 0
       firstFrame: 0
       lastFrame: 33
       wrapMode: 0
@@ -1724,6 +1986,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Walk
       takeName: Walk
+      internalID: 0
       firstFrame: 0
       lastFrame: 49
       wrapMode: 0
@@ -1881,6 +2144,7 @@ ModelImporter:
     - serializedVersion: 16
       name: WalkInPlace
       takeName: WalkInPlace
+      internalID: 0
       firstFrame: 0
       lastFrame: 49
       wrapMode: 0
@@ -2020,13 +2284,23 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -2036,10 +2310,14 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -2049,14 +2327,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
